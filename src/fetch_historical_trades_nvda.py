@@ -42,9 +42,9 @@ BATCH_SIZE = 24000
 RETRY_ATTEMPTS = 5
 RETRY_INITIAL = 1
 RETRY_MAX = 10
-TEMP_CSV = "historical_tick_data_3_temp.csv"
-FINAL_CSV = "historical_tick_data_3.csv"
-DEBUG_CSV = "invalid_ticks.csv"
+TEMP_CSV = "../data/historical_tick_data_3_temp.csv"
+FINAL_CSV = "../data/historical_tick_data_3.csv"
+DEBUG_CSV = "../data/invalid_ticks.csv"
 TIMESTAMP_REGEX = r"^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{6} UTC$"
 
 # Logging Setup

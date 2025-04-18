@@ -33,10 +33,10 @@ import argparse
 # ------------------------------------------------------------------------------
 SYMBOL = "NVDA"
 TIMEFRAME = "1s"
-INPUT_CSV = "./data/candles_1s.csv"
-CALCULATED_CSV = "./data/candles_1s_calculated.csv"
-ANCHOR_CSV = "./data/anchored_vwap_points_1s.csv"
-INVALID_CSV = "./data/invalid_candles.csv"
+INPUT_CSV = "../data/candles_1s.csv"
+CALCULATED_CSV = "../data/candles_1s_calculated.csv"
+ANCHOR_CSV = "../data/anchored_vwap_points_1s.csv"
+INVALID_CSV = "../data/invalid_candles.csv"
 
 FLUSH_THRESHOLD = 500_000
 ROLLING_BUFFER_SIZE = 10000
