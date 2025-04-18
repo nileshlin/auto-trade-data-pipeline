@@ -5,11 +5,11 @@ candle patterns, peaks/valleys, and daily anchors. Writes results to CSV files:
 candles_1s_calculated.csv and anchored_vwap_points_1s.csv.
 
 Usage:
-  python candle_to_calcs_03.01.2025.py <START_TIME> <END_TIME> [--stream]
+  python candle_to_calcs.py <START_TIME> <END_TIME> [--stream]
 
 Example:
-  python candle_to_calcs_03.01.2025.py 2023-01-03T04:00:00-05:00 2023-01-03T05:00:00-05:00
-  python candle_to_calcs_03.01.2025.py 2023-01-03T04:00:00-05:00 2023-01-03T05:00:00-05:00 --stream
+  python candle_to_calcs.py 2023-01-03T04:00:00-05:00 2023-01-03T05:00:00-05:00
+  python candle_to_calcs.py 2023-01-03T04:00:00-05:00 2023-01-03T05:00:00-05:00 --stream
   
 """
 
